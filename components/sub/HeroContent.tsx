@@ -38,7 +38,7 @@ const HeroContent = () => {
               {' '}
               my best{' '}
             </span>
-            project exprience
+            project experience
           </span>
         </motion.div>
 
@@ -46,8 +46,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className='text-lg text-gray-400 my-5 max-w-[600px]'
         >
-          Hi, I&apos;m Vyshnav.k, a Full Stack Developer with experience in website
-          design and software development. Check out my projects and skills.
+          Hi, I&apos;m Vyshnav.k, a Full Stack Developer with experience in
+          website design and software development. Check out my projects and
+          skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

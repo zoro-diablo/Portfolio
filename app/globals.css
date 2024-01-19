@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  &::-webkit-scrollbar {
+      width: 7px;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    &:hover::-webkit-scrollbar,
+    &:active::-webkit-scrollbar,
+    &.nav::-webkit-scrollbar-thumb {
+      opacity: 1;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #7e7d7d73;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgb(30, 30, 30);
+      border-radius: 0 0 5px 5px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #3333337f;
+    }
+}
+
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
