@@ -46,9 +46,9 @@ const Projects = () => {
         />
         <ProjectCard
           src='/dash.png'
-          title='Firebase Dashboard'
-          description='The Full Stack Dashboard employs React, Firebase, Sass, Recharts, and Material-UI, offering dynamic, responsive data visualization.  '
-          link='https://z-admin-dash.netlify.app/'
+          title='Zudo Streaming App'
+          description='Zudo Streaming App is a responsive, dynamic, and interactive web application. Made using React Query and Custom hooks.'
+          link='https://zudo-stream.netlify.app/'
         />
         <ProjectCard
           src='/mapty.png'
